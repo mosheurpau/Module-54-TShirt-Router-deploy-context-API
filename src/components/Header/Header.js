@@ -7,12 +7,12 @@ const Header = () => {
     <div>
       <h2>Welcome to Tshirt Mania!!!</h2>
       <nav>
-        {/* <Link to="/home">Home</Link>
-        <Link to="/orderreview">OrderReview</Link> */}
+        <Link to="/home">Home</Link>
+        <Link to="/orderreview">OrderReview</Link>
 
-        <CustomLink to="/home">Home</CustomLink>
+        {/* <CustomLink to="/home">Home</CustomLink>
         <CustomLink to="/orderreview">OrderReview</CustomLink>
-        <CustomLink to="/cart">Cart</CustomLink>
+        <CustomLink to="/cart">Cart</CustomLink> */}
       </nav>
     </div>
   );
